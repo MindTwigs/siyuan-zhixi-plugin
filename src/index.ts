@@ -71,14 +71,8 @@ export default class PluginZhixi extends Plugin {
       },
     });
 
-    const tabs = this.getOpenedTab();
-    for (const key of Object.keys(tabs)) {
-      for (const { tab } of tabs[key]) {
-        // console.log("removeTab", key, tab);
-        tab.close();
-      }
-    }
-    console.log(`frontend: ${getFrontend()}; backend: ${getBackend()}`);
+    this.closeTabs();
+    // console.log(`frontend: ${getFrontend()}; backend: ${getBackend()}`);
   }
 
   private hookWindowOpen(webview: any) {
@@ -145,10 +139,21 @@ export default class PluginZhixi extends Plugin {
     window.siyuan.layout.leftDock.toggleModel("file", false, false, true);
   }
 
+  private closeTabs() {
+    const tabs = this.getOpenedTab();
+    for (const key of Object.keys(tabs)) {
+      for (const { tab } of tabs[key]) {
+        // console.log("removeTab", key, tab);
+        tab.close();
+      }
+    }
+  }
+
   onunload() {
-    this.aTab?.close();
+    console.log("unload ".concat(this.name));
+    this.closeTabs();
   }
   uninstall() {
-    console.log("uninstall");
+    console.log("uninstall ".concat(this.name));
   }
 }

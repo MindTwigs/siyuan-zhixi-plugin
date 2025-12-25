@@ -2,7 +2,7 @@
   "name": "siyuan-zhixi-plugin",
   "author": "zhixi",
   "url": "https://github.com/MindTwigs/siyuan-zhixi-plugin",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "minAppVersion": "3.4.2",
   "backends": ["all"],
   "frontends": ["desktop", "browser-desktop", "desktop-window"],
