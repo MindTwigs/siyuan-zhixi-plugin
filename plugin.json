@@ -1,0 +1,29 @@
+{
+  "name": "siyuan-zhixi-plugin",
+  "author": "zhixi",
+  "url": "https://github.com/MindTwigs/siyuan-zhixi-plugin",
+  "version": "0.1.0",
+  "minAppVersion": "3.4.2",
+  "backends": ["windows", "linux", "darwin"],
+  "frontends": ["desktop", "browser-desktop", "desktop-window"],
+  "disabledInPublish": false,
+  "displayName": {
+    "default": "Zhixi Mindmap",
+    "zh_CN": "知犀思维导图"
+  },
+  "description": {
+    "default": "MindTwigs is a full-platform mind mapping software. It is easy to use and has a fresh and clear interface.",
+    "zh_CN": "知犀思维导图，是一款全平台的思维导图&大纲笔记软件，好用易上手，颜值小清新。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": ["https://ld246.com/sponsor"]
+  },
+  "keywords": ["思维导图", "mindmap", "脑图"]
+}
