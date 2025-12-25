@@ -2,9 +2,9 @@
   "name": "siyuan-zhixi-plugin",
   "author": "zhixi",
   "url": "https://github.com/MindTwigs/siyuan-zhixi-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "3.4.2",
-  "backends": ["windows", "linux", "darwin"],
+  "backends": ["all"],
   "frontends": ["desktop", "browser-desktop", "desktop-window"],
   "disabledInPublish": false,
   "displayName": {
@@ -18,12 +18,6 @@
   "readme": {
     "default": "README.md",
     "zh_CN": "README_zh_CN.md"
-  },
-  "funding": {
-    "openCollective": "",
-    "patreon": "",
-    "github": "",
-    "custom": ["https://ld246.com/sponsor"]
   },
   "keywords": ["思维导图", "mindmap", "脑图"]
 }
