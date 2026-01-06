@@ -1,7 +1,7 @@
 # User Documentation about MindTwigs
 
 ## 📖Product Introduction
-MindTwigs is a full-platform mind mapping software. It is easy to use and has a fresh and clear interface. You can quickly create mind maps on your smartphone, and it supports exporting high-quality images. When you use MindTwigs to create mind maps, you can focus on thinking and combing your thoughts without spending time researching the software's features.
+MindTwigs is a full-platform mind mapping software. It is easy to use and has a fresh and clear interface. You can quickly create mind maps on your smartphone, and it supports exporting high-quality images. When you use MindTwigs to create mind maps, you can focus on thinking and combing your thoughts without spending time researching the software's features.  
 MindTwigs team has partially innovated on the mind map structure. They have fully liberalized 12 structures of maps, Right Logic Map, Mind Map, Downward Sorting Map, Bridge Diagram, Fishbone Diagram, Organizational Chart, Bracket Diagram, Bubble Diagram, Circle Diagram, Cause and Effect Diagram, and other innovative graphic structures. It is very suitable for daily work, studying, and life. For example, reading notes, knowledge compilation, product planning, meeting minutes, brainstorming, work plan, OKR, travel plan, study notes for public examination/graduate studies/certification, and so on.
 
 
