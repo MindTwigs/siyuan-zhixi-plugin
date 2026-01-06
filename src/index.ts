@@ -79,6 +79,7 @@ export default class PluginZhixi extends Plugin {
     webview.addEventListener("dom-ready", () => {
       webview.executeJavaScript(`
         window.open = function (url) {
+          if (url instanceof SVGAnimatedString) url = url.baseVal;
           console.debug(JSON.stringify({ type: "open", url }));
         }
         document.addEventListener('click', (e) => {
